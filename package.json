@@ -1,0 +1,21 @@
+{
+  "name": "json-schema-to-ts_ts2589",
+  "version": "1.0.0",
+  "description": "An example of \"Type instantiation is excessively deep and possibly infinite. ts(2589)\" with json-schema-to-ts, but also an illustration of unproper conditional type inferring.",
+  "main": "lib/",
+  "scripts": {
+    "compile": "shx rm -rf lib/ && tsc",
+    "prettier": "npx prettier \"**/*.ts\" --write"
+  },
+  "author": "Catatomik",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "shx": "^0.3.4",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@feathersjs/schema": "^5.0.0-pre.28",
+    "json-schema-to-ts": "^2.5.5"
+  }
+}
